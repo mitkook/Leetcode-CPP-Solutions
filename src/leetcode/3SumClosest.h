@@ -13,8 +13,8 @@
  * The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
  */
 
-#ifndef 3SUMCLOSEST_H_
-#define 3SUMCLOSEST_H_
+#ifndef THREESUMCLOSEST_H_
+#define THREESUMCLOSEST_H_
 
 // O(n^2)
 int threeSumClosest(vector<int> &num, int target) {
@@ -40,4 +40,4 @@ int threeSumClosest(vector<int> &num, int target) {
 	return result;
 }
 
-#endif /* 3SUMCLOSEST_H_ */
+#endif /* THREESUMCLOSEST_H_ */

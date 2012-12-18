@@ -20,8 +20,8 @@
  * (-1, -1, 2)
  */
 
-#ifndef 3SUM_H_
-#define 3SUM_H_
+#ifndef THREESUM_H_
+#define THREESUM_H_
 
 /*
  * idea: assume number "first" is in solution set, determine the other two numbers by iteratively adding "second" and "last" numbers.
@@ -67,4 +67,4 @@ vector<vector<int> > threeSum(vector<int> &num) {
 	return result;
 }
 
-#endif /* 3SUM_H_ */
+#endif /* THREESUM_H_ */
