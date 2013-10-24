@@ -15,6 +15,7 @@
 #ifndef BESTTIMETOBUYANDSELLSTOCK_H_
 #define BESTTIMETOBUYANDSELLSTOCK_H_
 
+using namespace std;
 // O(n)
 int maxProfit(vector<int> &prices) {
 	int min_i = 0;

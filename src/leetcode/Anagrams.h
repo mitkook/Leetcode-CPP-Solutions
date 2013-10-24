@@ -14,6 +14,8 @@
 #ifndef ANAGRAMS_H_
 #define ANAGRAMS_H_
 
+using namespace std;
+
 vector<string> anagrams(vector<string> &strs) {
 	std::tr1::unordered_map < string, vector<string> > anagram_groups;
 	string temp;

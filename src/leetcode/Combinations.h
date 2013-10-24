@@ -23,10 +23,12 @@
 #ifndef COMBINATIONS_H_
 #define COMBINATIONS_H_
 
+using namespace std;
+
 vector<vector<int> > combine(int n, int k) {
 	vector < vector<int> > result;
 	vector<int> combination;
-	combineHeler(n, k, 1, combination, result);
+	getCombinations(n, k, 1, combination, result);
 	return result;
 }
 

@@ -20,6 +20,8 @@
 #ifndef TWOSUM_H_
 #define TWOSUM_H_
 
+using namespace std;
+
 // O(nlogn) method
 vector<int> twoSum(vector<int> &numbers, int target) {
 	int N = numbers.size();
@@ -58,7 +60,7 @@ vector<int> twoSum(vector<int> &numbers, int target) {
 }
 
 // O(n) method, using hash table
-vector<int> twoSum(vector<int> &numbers, int target) {
+vector<int> twoSum2(vector<int> &numbers, int target) {
 	std::tr1::unordered_map<int, int> hash;
 	int N = numbers.size();
 	int i;

@@ -17,6 +17,9 @@
 #ifndef ADDTWONUMBERS_H_
 #define ADDTWONUMBERS_H_
 
+#include <iostream>
+using namespace std;
+
 // Definition for singly-linked list.
 struct ListNode {
 	int val;

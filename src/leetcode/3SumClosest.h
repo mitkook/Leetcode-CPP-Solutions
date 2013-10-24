@@ -16,6 +16,8 @@
 #ifndef THREESUMCLOSEST_H_
 #define THREESUMCLOSEST_H_
 
+using namespace std;
+
 // O(n^2)
 int threeSumClosest(vector<int> &num, int target) {
 	int N = num.size();

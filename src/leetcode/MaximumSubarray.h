@@ -18,6 +18,9 @@
 #ifndef MAXIMUMSUBARRAY_H_
 #define MAXIMUMSUBARRAY_H_
 
+#include <climits>  // INT_MIN
+using namespace std;
+
 /*
  * idea: if has max subarray A[i...j], then sum of subarray A[0...i-1] must < 0
  * note: special case, all integers < 0
@@ -68,8 +71,8 @@ int maxSubArray_Divide_Conquer(int A[], int left, int right) {
 		sum += A[i];
 		rmax = max(rmax, sum);
 	}
-	int result = max(maxSubarray_Divide_Conquer(A, mid + 1, right),
-			maxSubarray_Divide_Conquer(A, left, mid - 1));
+	int result = max(maxSubArray_Divide_Conquer(A, mid + 1, right),
+			maxSubArray_Divide_Conquer(A, left, mid - 1));
 	return max(result, lmax + rmax - A[mid]);
 }
 

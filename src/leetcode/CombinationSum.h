@@ -23,6 +23,8 @@
 #ifndef COMBINATIONSUM_H_
 #define COMBINATIONSUM_H_
 
+using namespace std;
+
 vector<vector<int> > combinationSum(vector<int> &candidates, int target) {
 	vector < vector<int> > result;
 	sort(candidates.begin(), candidates.end()); // original array will be sorted

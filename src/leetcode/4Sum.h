@@ -24,6 +24,8 @@
 #ifndef FOURSUM_H_
 #define FOURSUM_H_
 
+using namespace std;
+
 /*
  * idea: assume number "first", "second" is in solution set, determine the other two numbers by iteratively adding "third" and "last" numbers.
  * it requires sorting the array beforehand.

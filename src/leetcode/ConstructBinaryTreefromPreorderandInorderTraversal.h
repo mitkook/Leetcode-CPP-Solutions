@@ -15,6 +15,9 @@
 #ifndef CONSTRUCTBINARYTREEFROMPREORDERANDINORDERTRAVERSAL_H_
 #define CONSTRUCTBINARYTREEFROMPREORDERANDINORDERTRAVERSAL_H_
 
+#include <iostream>
+using namespace std;
+
 /**
  * Definition for binary tree
  */

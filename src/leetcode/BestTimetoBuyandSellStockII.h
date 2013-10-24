@@ -15,6 +15,8 @@
 #ifndef BESTTIMETOBUYANDSELLSTOCKII_H_
 #define BESTTIMETOBUYANDSELLSTOCKII_H_
 
+using namespace std;
+
 int maxProfit(vector<int> &prices) {
 	if (prices.size() < 2)
 		return 0;

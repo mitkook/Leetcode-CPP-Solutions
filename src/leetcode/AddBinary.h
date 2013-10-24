@@ -17,6 +17,8 @@
 #ifndef ADDBINARY_H_
 #define ADDBINARY_H_
 
+using namespace std;
+
 /*
  *
  * template <class BidirectionalIterator>

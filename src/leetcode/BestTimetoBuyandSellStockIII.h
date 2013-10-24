@@ -17,6 +17,8 @@
 #ifndef BESTTIMETOBUYANDSELLSTOCKIII_H_
 #define BESTTIMETOBUYANDSELLSTOCKIII_H_
 
+#include <iostream>
+using namespace std;
 /*
  * idea:
  * use an array to record max_profit for the first transaction (from 0 to time i)

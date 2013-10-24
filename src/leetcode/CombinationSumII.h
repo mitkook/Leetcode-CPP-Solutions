@@ -26,6 +26,9 @@
 #ifndef COMBINATIONSUMII_H_
 #define COMBINATIONSUMII_H_
 
+#include <iostream>
+using namespace std;
+
 vector<vector<int> > combinationSum2(vector<int> &candidates, int target) {
 	vector < vector<int> > result;
 	int sum = 0;

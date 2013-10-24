@@ -23,6 +23,7 @@
 #ifndef THREESUM_H_
 #define THREESUM_H_
 
+using namespace std;
 /*
  * idea: assume number "first" is in solution set, determine the other two numbers by iteratively adding "second" and "last" numbers.
  * it requires sorting the array beforehand.

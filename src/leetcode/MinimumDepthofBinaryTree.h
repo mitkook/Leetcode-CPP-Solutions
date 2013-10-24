@@ -14,6 +14,9 @@
 #ifndef MINIMUMDEPTHOFBINARYTREE_H_
 #define MINIMUMDEPTHOFBINARYTREE_H_
 
+#include <iostream>
+using namespace std;
+
 /**
  * Definition for binary tree
  */

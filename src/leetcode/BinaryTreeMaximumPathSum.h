@@ -22,6 +22,9 @@
 #ifndef BINARYTREEMAXIMUMPATHSUM_H_
 #define BINARYTREEMAXIMUMPATHSUM_H_
 
+#include <iostream>
+using namespace std;
+
 /**
  * Definition for binary tree
  */

@@ -16,6 +16,8 @@
 #ifndef CONTAINERWITHMOSTWATER_H_
 #define CONTAINERWITHMOSTWATER_H_
 
+using namespace std;
+
 int maxArea(vector<int> &height) {
 	int left = 0;
 	int right = height.size() - 1;
